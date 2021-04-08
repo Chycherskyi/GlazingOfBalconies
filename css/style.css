@@ -1,4 +1,4 @@
-.header {
+.navbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,7 +10,7 @@
           align-items: center;
 }
 
-.header-logo {
+.navbar-logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,7 +19,7 @@
           align-items: center;
 }
 
-.header-logo__item {
+.navbar-logo__item {
   margin-right: 15px;
   text-transform: uppercase;
   font-weight: bolder;
@@ -30,13 +30,13 @@
   -webkit-text-fill-color: transparent;
 }
 
-.header-logo span {
+.navbar-logo span {
   color: #0b77d6;
   font-family: 'PT Sans', sans-serif;
   font-size: 14px;
 }
 
-.header-button {
+.navbar-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,11 +55,11 @@
   cursor: pointer;
 }
 
-.header-button img {
+.navbar-button img {
   margin-right: 10px;
 }
 
-.header-hours {
+.navbar-hours {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,27 +68,27 @@
           align-items: center;
 }
 
-.header-hours img {
+.navbar-hours img {
   width: 28px;
   margin-right: 15px;
 }
 
-.header-hours__items {
+.navbar-hours__items {
   text-align: center;
 }
 
-.header-hours__items p {
+.navbar-hours__items p {
   padding: 5px 0;
   margin: 0;
   font-family: 'PT Sans', sans-serif;
 }
 
-.header-hours__items span {
+.navbar-hours__items span {
   font-family: 'PT Sans', sans-serif;
   font-weight: bolder;
 }
 
-.header-phone {
+.navbar-phone {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,18 +97,18 @@
           align-items: center;
 }
 
-.header-phone img {
+.navbar-phone img {
   margin-right: 15px;
 }
 
-.header-phone__items a {
+.navbar-phone__items a {
   display: block;
   padding: 5px 0;
   font-family: 'PT Sans', sans-serif;
   color: #000;
 }
 
-.header-phone__items a.phone {
+.navbar-phone__items a.phone {
   text-decoration: none;
   font-family: 'PT Sans', sans-serif;
   font-weight: bolder;
