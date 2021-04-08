@@ -120,6 +120,7 @@
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url("../img/main-image.jpg");
   background-image: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/main-image.jpg");
   height: 650px;
+  margin-bottom: 80px;
 }
 
 .header {
@@ -241,8 +242,118 @@
   color: #666;
 }
 
+.glazing-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.glazing-example {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.glazing-example__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.glazing-example__items img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.glazing-example__items a {
+  font-family: 'Roboto Slab', serif;
+  color: #0b77d6;
+}
+
+.glazing-cold {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.glazing-item__cold {
+  padding: 30px 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#c7dce9), color-stop(0%, #c7dce9), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(180deg, #c7dce9 0%, #c7dce9 0%, rgba(255, 255, 255, 0) 100%);
+  border-top: 4px solid #0089cd;
+}
+
+.glazing-item__warm {
+  padding: 30px 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f7eac9), color-stop(0%, #f7eac9), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(180deg, #f7eac9 0%, #f7eac9 0%, rgba(255, 255, 255, 0) 100%);
+  border-top: 4px solid #ffb903;
+}
+
+.item-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item-price {
+  margin-right: 30px;
+}
+
+.item-price__first {
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+ul {
+  line-height: 30px;
+  list-style: none;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul li {
+  padding-left: 25px;
+  background: url("../img/glazing/checked.png") no-repeat left;
+}
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
 }
 /*# sourceMappingURL=style.css.map */
