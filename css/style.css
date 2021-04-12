@@ -421,8 +421,27 @@ ul li {
   margin-left: 0;
 }
 
+.works {
+  text-align: center;
+}
+
+.works-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.works-items__img {
+  margin-bottom: 20px;
+}
+
 .container {
-  max-width: 1100px;
+  max-width: 1150px;
   margin: 0 auto;
 }
 
