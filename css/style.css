@@ -427,6 +427,7 @@ ul li {
 }
 
 .title {
+  padding: 50px 0;
   text-transform: uppercase;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
