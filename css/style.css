@@ -476,6 +476,43 @@ ul li {
   padding: 50px 0;
 }
 
+.payment {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.payment-title {
+  margin: 60px 0;
+}
+
+.payment-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.payment-block__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.payment-block__text {
+  display: inline-block;
+  margin-left: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
 body {
   margin: 0;
 }
