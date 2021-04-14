@@ -591,6 +591,37 @@ ul li {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.contact {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.contact-title {
+  margin: 80px 0;
+}
+
+.contact-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-content {
+  margin-left: 100px;
+  text-align: left;
+}
+
+.contact-item__title {
+  color: #0089cd;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact-item__text {
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 body {
   margin: 0;
 }
