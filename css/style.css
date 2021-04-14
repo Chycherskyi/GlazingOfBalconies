@@ -622,6 +622,24 @@ ul li {
   font-size: 20px;
 }
 
+.feedback {
+  background-color: #0089cd;
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+}
+
+.feedback-title {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.feedback-text {
+  color: #fff;
+}
+
 body {
   margin: 0;
 }
