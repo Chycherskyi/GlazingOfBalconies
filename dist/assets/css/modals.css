@@ -43,7 +43,7 @@
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    width: 40rem;
+    width: 360px;
     background-color: #ffffff;
 }
 
