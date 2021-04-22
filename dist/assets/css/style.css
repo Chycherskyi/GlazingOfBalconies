@@ -154,7 +154,7 @@
   height: 360px;
   width: 260px;
   padding: 20px 50px;
-  margin: 0px;
+  margin-left: 200px;
   border-radius: 10px;
   text-align: center;
 }
@@ -538,5 +538,4 @@ body {
   font-weight: bold;
   font-size: 30px;
 }
-
 /*# sourceMappingURL=style.css.map */
