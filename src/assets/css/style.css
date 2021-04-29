@@ -235,6 +235,10 @@
   color: #0b77d6;
 }
 
+.glazing-example .active {
+  box-shadow: 0 8px 6px -6px #a8a8a8;
+}
+
 .glazing-cold {
   display: flex;
   justify-content: center;

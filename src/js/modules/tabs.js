@@ -14,7 +14,7 @@ const tabs = (headerSelector, tabSelector, contentSelector, activeClass) => {
     }
 
     function showTabContent(i = 0) {
-        content[i].style.display = 'block';
+        content[i].style.display = 'flex';
         tab[i].classList.add(activeClass);
     }
 
@@ -22,6 +22,7 @@ const tabs = (headerSelector, tabSelector, contentSelector, activeClass) => {
     showTabContent();
 
     header.addEventListener('click', (e) => {
+        e. preventDefault();
         const target = e.target;
         if (target &&
             (target.classList.contains(tabSelector.replace(/\./, "")) || 
