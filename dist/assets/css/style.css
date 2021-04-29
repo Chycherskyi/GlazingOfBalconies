@@ -236,7 +236,7 @@
 }
 
 .glazing-example .active {
-  box-shadow: 0 8px 6px -6px #a8a8a8;
+  box-shadow: 0 12px 6px -6px #a8a8a8;
 }
 
 .glazing-cold {
@@ -296,17 +296,15 @@ ul li {
 
 .decoration-category {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  padding: 50px 0 20px 0;
-  border-top: 10px solid #0089cd;
-  background: linear-gradient(180deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 20%);
 }
 
 .decoration-category__item {
-  flex-grow: 1;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  padding: 40px 0 20px 0;
+  margin-bottom: 20px;
   font-size: 20px;
   font-weight: bold;
   color: #000;
@@ -340,6 +338,12 @@ ul li {
 
 .decoration-form {
   margin-left: 0;
+}
+
+.after_click {
+  padding: 30px 0 20px 0;
+  border-top: 10px solid #0089cd;
+  background: linear-gradient(180deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 20%);
 }
 
 .works {
