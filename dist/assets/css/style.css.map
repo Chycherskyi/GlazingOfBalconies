@@ -17,7 +17,9 @@
     ],
     "names": [],
     "file": "style.css"
-}assets/sass/blocks/_contact.sass",
+}ment.sass",
+        "../../../dist/assets/sass/blocks/_sale.sass",
+        "../../../dist/assets/sass/blocks/_contact.sass",
         "../../../dist/assets/sass/blocks/_feedback.sass",
         "../../../dist/assets/sass/_interface.sass"
     ],
